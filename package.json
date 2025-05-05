@@ -14,7 +14,7 @@
     "migrate": "prisma migrate dev",
     "postinstall": "prisma generate",
     "graphql-codegen": "graphql-codegen --config .graphqlrc.ts",
-    "prepare": "npx prisma generate && prisma migrate deploy"
+    "prepare": "npx prisma generate "
   },
   "dependencies": {
     "@apollo/client": "^3.9.6",

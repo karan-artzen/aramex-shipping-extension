@@ -1,15 +1,18 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "d0c232931ffde10ab924134c96eaeea9"
-name = "NEXT APP"
-handle = "next-app-36"
-application_url = "https://skirt-items-several-beds.trycloudflare.com"
+client_id = "a505675d61f2ab4dc24fcab31546cc3f"
+application_url = "https://sherman-poly-bahamas-stuck.trycloudflare.com"
 embedded = true
+name = "Armex Pickup"
+handle = "narmex-pickup"
 
 [build]
 automatically_update_urls_on_dev = true
-dev_store_url = "quickstart-f5eac516.myshopify.com"
+dev_store_url = "karan-working.myshopify.com"
 include_config_on_deploy = true
+
+[webhooks]
+api_version = "2024-07"
 
 [access.admin]
 direct_api_mode = "offline"
@@ -21,13 +24,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://skirt-items-several-beds.trycloudflare.com/auth/callback",
-  "https://skirt-items-several-beds.trycloudflare.com/auth/shopify/callback",
-  "https://skirt-items-several-beds.trycloudflare.com/api/auth/callback"
+  "https://sherman-poly-bahamas-stuck.trycloudflare.com/auth/callback",
+  "https://sherman-poly-bahamas-stuck.trycloudflare.com/auth/shopify/callback",
+  "https://sherman-poly-bahamas-stuck.trycloudflare.com/api/auth/callback"
 ]
-
-[webhooks]
-api_version = "2024-07"
 
 [pos]
 embedded = false
